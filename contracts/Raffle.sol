@@ -33,7 +33,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     /** State Variables */
     uint256 private immutable i_entranceFee;
     address payable[] private s_players;
-    VRFCoordinatorV2Interface private immutable i_vrfCoordinator;
+    VRFCoordinatorV2Interface private immutable i_vrfCoordinator; //contract
     bytes32 private immutable i_gasLane;
     uint64 private immutable i_subscriptionId;
     uint32 private immutable i_callbackGasLimit;
