@@ -49,3 +49,5 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
         await verify(raffle.address, args)
     }
 }
+
+module.exports.tags = ["all", "raffle"]
