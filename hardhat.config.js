@@ -57,4 +57,7 @@ module.exports = {
     mocha: {
         timeout: 300000, //300 seconds - might have to adjust based on the speed of Rinkeby testnet
     },
+    etherscan: {
+        apiKey: ETHERSCAN_API_KEY,
+    },
 }
